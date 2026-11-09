@@ -5,7 +5,7 @@
 1. Entra en **hPanel → Sitios web → vicotek.app → Avanzado → Git**.
    - Si `vicotek.app` aún no está añadido en Hostinger, primero **Añadir sitio web** con ese dominio.
 2. En **Crear un nuevo repositorio**:
-   - Repositorio: `https://github.com/Vicotek/vicotek-web.git`
+   - Repositorio: `https://github.com/Vicotek/Vicotek-web.git`
    - Rama: `main`
    - Directorio: déjalo **vacío** (instala en `public_html`).
    - Si el directorio `public_html` no está vacío, borra antes su contenido (p. ej. el `default.php` de Hostinger).
@@ -14,7 +14,7 @@
 ## 2. Despliegue automático en cada cambio
 
 1. En la misma pantalla de Git, pulsa **Despliegue automático** y copia la **URL del webhook**.
-2. En GitHub: **Vicotek/vicotek-web → Settings → Webhooks → Add webhook**
+2. En GitHub: **Vicotek/Vicotek-web → Settings → Webhooks → Add webhook**
    - Payload URL: la URL copiada
    - Content type: `application/json`
    - Evento: *Just the push event*
