@@ -1,37 +1,51 @@
 # vicotek.app
 
 Web corporativa de Vicotek: webs integradas con flujos profundos y agentes de IA.
+Sitio estático publicado con GitHub Pages en 4 idiomas: castellano (`/`), inglés (`/en/`), danés (`/da/`) y catalán (`/ca/`).
 
-Sitio estático (HTML + CSS + JS, sin compilación), pensado para alojarse en Hostinger con despliegue automático desde este repositorio.
+## Cómo se edita
 
-## Estructura
+| Quiero cambiar…            | Edito…                                  |
+|----------------------------|-----------------------------------------|
+| Un texto                   | `i18n/es.json`, `en.json`, `da.json`, `ca.json` |
+| La estructura / secciones  | `src/index.html`                        |
+| Colores, tamaños           | `assets/styles.css` (variables `:root`) |
+| Una foto                   | Sustituye el archivo en `assets/img/` con el **mismo nombre** |
 
+Después de editar textos o `src/`, regenera las páginas y sube los cambios:
+
+```bash
+python3 build.py
+git add -A && git commit -m "Actualiza textos" && git push
 ```
-index.html          Página principal
-privacidad.html     Política de privacidad (pendiente de texto)
-aviso-legal.html    Aviso legal (pendiente de texto)
-.htaccess           HTTPS + www, caché y compresión (Apache/Hostinger)
-assets/
-  styles.css        Estilos — colores de marca en las variables :root
-  main.js           Menú móvil y animaciones
-  favicon.svg
-```
 
-## Cambios habituales
+> No edites `index.html`, `en/`, `da/` ni `ca/` a mano: se generan con `build.py`.
 
-- **Colores:** edita `--accent`, `--bg`, etc. al principio de `assets/styles.css`.
-- **Textos:** directamente en `index.html`.
-- **Foto del equipo:** sube `assets/jose-antonio.jpg` y sigue el comentario en la sección `#equipo`.
-- **Métricas de casos:** busca `[+X%]` y `[X h]` en `index.html`.
+## Fotos (`assets/img/`)
+
+| Archivo                     | Dónde sale                 | Tamaño recomendado | Estado |
+|-----------------------------|----------------------------|--------------------|--------|
+| `hero.jpg`                  | Portada                    | 1100 × 880         | provisional |
+| `sector-alimentacion.jpg`   | Sector alimentación        | 800 × 500          | provisional |
+| `sector-vino.jpg`           | Sector vinicultores        | 800 × 500          | provisional |
+| `sector-audiovisual.jpg`    | Sector audiovisual         | 800 × 500          | **falta** |
+| `caso-isocore.jpg`          | Caso ISOCORE (vertical)    | 760 × 840          | provisional |
+| `caso-bolighub.jpg`         | Caso Bolighub              | 900 × 520          | **falta** |
+| `caso-envinat.jpg`          | Caso Envinat               | 900 × 520          | provisional |
+| `jose-antonio.jpg`          | Equipo                     | 600 × 720          | ✓ |
+| `escena-1.jpg` … `escena-4.jpg` | Sección "Detrás de escena" | 1 horizontal grande + 3 | **falta** |
+
+- Si una foto falta, se muestra un recuadro limpio con un icono de cámara (no una imagen rota).
+- La sección **"Detrás de escena"** aparece sola en cuanto exista `escena-1.jpg` (ejecuta `build.py` después de añadirla).
+- Usa JPG de < 200 KB. Las fotos se recortan solas para encajar (`object-fit: cover`).
+- Evita imágenes generadas con IA que tengan texto o logos deformados.
 
 ## Ver en local
 
-Abre `index.html` en el navegador, o:
-
 ```bash
-python3 -m http.server 8000
+python3 -m http.server 8000   # y abre http://localhost:8000
 ```
 
 ## Despliegue
 
-Ver [DEPLOY.md](DEPLOY.md).
+Ver [DEPLOY.md](DEPLOY.md). Cada `git push` a `main` publica en https://www.vicotek.app

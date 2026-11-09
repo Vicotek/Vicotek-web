@@ -2,11 +2,13 @@
 (function () {
   var toggle = document.querySelector('.nav__toggle');
   var menu = document.getElementById('menu');
+  var labelOpen = document.body.getAttribute('data-menu-open') || 'Menu';
+  var labelClose = document.body.getAttribute('data-menu-close') || 'Close';
   if (toggle && menu) {
     toggle.addEventListener('click', function () {
       var open = menu.classList.toggle('is-open');
       toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
-      toggle.setAttribute('aria-label', open ? 'Cerrar menú' : 'Abrir menú');
+      toggle.setAttribute('aria-label', open ? labelClose : labelOpen);
     });
     menu.querySelectorAll('a').forEach(function (a) {
       a.addEventListener('click', function () {

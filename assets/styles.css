@@ -210,3 +210,72 @@ p { margin: 0; }
   .case { padding: 28px; }
   .cta__box { padding: 48px 28px; }
 }
+
+/* ==========================================================
+   v2 — fotos, selector de idioma, sectores
+   ========================================================== */
+:root { --photo-sat: 0.9; }
+
+/* Selector de idioma */
+.lang { display: flex; gap: 2px; border: 1px solid var(--border); border-radius: 10px; padding: 3px; font-size: 13px; font-weight: 600; }
+.lang a { padding: 7px 9px; border-radius: 7px; color: var(--muted) !important; line-height: 1; min-width: 32px; text-align: center; }
+.lang a:hover { color: var(--text) !important; background: var(--surface-2); }
+.lang a[aria-current="true"] { background: var(--chip); color: var(--text) !important; }
+
+/* Contenedor de foto: si falta la imagen se ve un recuadro limpio con icono */
+.ph { position: relative; overflow: hidden; background: var(--surface-2); }
+.ph::before {
+  content: ""; position: absolute; inset: 0; margin: auto; width: 36px; height: 36px; opacity: .45;
+  background: no-repeat center / contain url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23AEB8CC' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3' y='5' width='18' height='14' rx='2'/%3E%3Ccircle cx='12' cy='12' r='3.5'/%3E%3Cpath d='M8 5l1.5-2h5L16 5'/%3E%3C/svg%3E");
+}
+.ph img { position: relative; width: 100%; height: 100%; object-fit: cover; display: block; filter: saturate(var(--photo-sat)); }
+
+/* Hero con foto */
+.hero__media { flex: 1 1 460px; min-width: 0; position: relative; padding-bottom: 72px; }
+.hero__photo { height: 440px; border-radius: 22px; }
+.hero__photo img { object-position: center 40%; }
+.flow-mini {
+  position: absolute; left: -28px; bottom: 0; width: 300px; max-width: calc(100% - 8px);
+  background: var(--surface); border: 1px solid var(--border); border-radius: 18px; padding: 20px;
+  box-shadow: 0 24px 50px -20px rgba(5, 10, 25, .7); display: flex; flex-direction: column; gap: 12px;
+}
+.flow-mini ol { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 12px; }
+.flow-mini li { display: flex; gap: 10px; align-items: center; font-size: 14px; color: var(--text); }
+.flow-mini .flow__num { width: 30px; height: 30px; border-radius: 8px; font-size: 12px; flex-shrink: 0; }
+
+/* Sectores */
+.sectors { display: grid; gap: 20px; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+.sector { background: var(--surface); border: 1px solid var(--border); border-radius: 20px; overflow: hidden; display: flex; flex-direction: column; }
+.sector .ph { height: 240px; }
+.sector__body { padding: 26px; display: flex; flex-direction: column; gap: 10px; }
+.sector h3 { font-size: 22px; }
+.sector p { font-size: 15px; color: var(--muted); }
+
+/* Casos con foto */
+.case--photo { padding: 0; overflow: hidden; flex-direction: row; flex-wrap: wrap; gap: 0; margin-bottom: 20px; }
+.case--photo > .ph { flex: 1 1 380px; min-height: 420px; }
+.case--photo > .case__copy { padding: 44px; justify-content: center; flex: 1 1 460px; }
+.case--card { padding: 0; overflow: hidden; gap: 0; }
+.case--card > .ph { height: 220px; }
+.case__body { padding: 30px; display: flex; flex-direction: column; gap: 14px; }
+
+/* Equipo */
+.team__img { width: 300px; height: 360px; border-radius: 24px; flex-shrink: 0; }
+.team__img img { object-position: center 20%; filter: none; }
+
+/* Detrás de escena */
+.scenes { display: grid; gap: 16px; grid-template-columns: 2fr 1fr 1fr; grid-auto-rows: 200px; }
+.scenes .ph { border-radius: 18px; }
+.scenes .ph:nth-child(1) { grid-row: span 2; }
+.scenes .ph:nth-child(4) { grid-column: span 2; }
+
+@media (max-width: 860px) {
+  .header .nav__links .lang { align-self: flex-start; margin: 8px 0; }
+  .hero__photo { height: 320px; }
+  .flow-mini { left: 12px; }
+  .case--photo > .ph { min-height: 260px; }
+  .case--photo > .case__copy { padding: 28px; }
+  .team__img { width: 100%; max-width: 320px; }
+  .scenes { grid-template-columns: 1fr 1fr; grid-auto-rows: 160px; }
+  .scenes .ph:nth-child(1) { grid-row: auto; grid-column: span 2; }
+}

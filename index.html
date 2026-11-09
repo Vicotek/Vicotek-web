@@ -5,13 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Vicotek — Webs conectadas a flujos inteligentes e IA</title>
   <meta name="description" content="Diseñamos e integramos webs con flujos profundos: CRM, WhatsApp, llamadas, pagos y agentes de IA conectados entre sí y entre empresas.">
-  <meta name="keywords" content="integración web, automatización, agentes IA, CRM, WhatsApp, flujos, empresas alimentarias, vinicultores">
   <link rel="canonical" href="https://www.vicotek.app/">
-
+  <link rel="alternate" hreflang="es" href="https://www.vicotek.app/">
+  <link rel="alternate" hreflang="en" href="https://www.vicotek.app/en/">
+  <link rel="alternate" hreflang="da" href="https://www.vicotek.app/da/">
+  <link rel="alternate" hreflang="ca" href="https://www.vicotek.app/ca/">
+  <link rel="alternate" hreflang="x-default" href="https://www.vicotek.app/">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Vicotek — Webs que trabajan por tu empresa">
   <meta property="og:description" content="Webs integradas con flujos profundos y agentes de IA que conectan empresas.">
   <meta property="og:url" content="https://www.vicotek.app/">
+  <meta property="og:image" content="https://www.vicotek.app/assets/img/hero.jpg">
   <meta property="og:locale" content="es_ES">
 
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
@@ -20,7 +24,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/styles.css">
 </head>
-<body>
+<body data-menu-open="Abrir menú" data-menu-close="Cerrar menú">
 
 <header class="header">
   <nav class="nav" aria-label="Principal">
@@ -30,9 +34,15 @@
     </button>
     <div class="nav__links" id="menu">
       <a href="#soluciones">Soluciones</a>
+      <a href="#sectores">Sectores</a>
       <a href="#casos">Casos</a>
-      <a href="#proceso">Proceso</a>
       <a href="#equipo">Equipo</a>
+      <div class="lang" role="group" aria-label="Idioma">
+        <a href="./" hreflang="es" lang="es" title="Castellano" data-set-lang="es" aria-current="true">ES</a>
+        <a href="en/" hreflang="en" lang="en" title="English" data-set-lang="en">EN</a>
+        <a href="da/" hreflang="da" lang="da" title="Dansk" data-set-lang="da">DA</a>
+        <a href="ca/" hreflang="ca" lang="ca" title="Català" data-set-lang="ca">CA</a>
+      </div>
       <a class="btn btn--primary" href="https://api.leadconnectorhq.com/widget/booking/kqMCWqotNTBpPlBaoO3k" target="_blank" rel="noopener">Reservar demo</a>
     </div>
   </nav>
@@ -40,7 +50,7 @@
 
 <main>
 
-  <!-- HERO -->
+  <!-- PORTADA -->
   <section class="hero" id="inicio">
     <div class="container hero__grid">
       <div class="hero__copy">
@@ -52,19 +62,19 @@
           <a class="btn btn--ghost" href="#casos">Ver casos reales</a>
         </div>
       </div>
-
-      <div class="flow" role="img" aria-label="Ejemplo de flujo conectado: visita web, agente IA, CRM, WhatsApp y pedido cerrado">
-        <div class="flow__head">
-          <span class="flow__title">Flujo activo · Pedido B2B</span>
-          <span class="live"><span class="live__dot"></span>En vivo</span>
+      <div class="hero__media">
+        <div class="ph hero__photo"><img src="assets/img/hero.jpg" alt="Equipo de un cliente revisando su flujo comercial alrededor de una mesa" width="1100" height="880" fetchpriority="high" onerror="this.remove()"></div>
+        <div class="flow-mini" role="img" aria-label="Ejemplo de flujo: lead desde la web, la IA cualifica y asigna, pedido cerrado por WhatsApp">
+          <div class="flow__head" style="margin:0">
+            <span class="flow__title" style="font-size:14px">Flujo activo</span>
+            <span class="live"><span class="live__dot"></span>En vivo</span>
+          </div>
+          <ol>
+            <li><span class="flow__num">01</span>Lead desde la web</li>
+            <li><span class="flow__num">02</span>IA cualifica y asigna</li>
+            <li><span class="flow__num">03</span>Pedido cerrado por WhatsApp</li>
+          </ol>
         </div>
-        <ol class="flow__list">
-          <li class="flow__step"><div class="flow__rail"><span class="flow__num">01</span><span class="flow__line"></span></div><div class="flow__text"><strong>Visita a la web</strong><span>Formulario o chat inicia el flujo</span></div></li>
-          <li class="flow__step"><div class="flow__rail"><span class="flow__num">02</span><span class="flow__line"></span></div><div class="flow__text"><strong>Agente IA cualifica</strong><span>Detecta necesidad, marca y urgencia</span></div></li>
-          <li class="flow__step"><div class="flow__rail"><span class="flow__num">03</span><span class="flow__line"></span></div><div class="flow__text"><strong>CRM se actualiza</strong><span>Lead asignado a la empresa correcta</span></div></li>
-          <li class="flow__step"><div class="flow__rail"><span class="flow__num">04</span><span class="flow__line"></span></div><div class="flow__text"><strong>WhatsApp de confirmación</strong><span>Mensaje personalizado al instante</span></div></li>
-          <li class="flow__step"><div class="flow__rail"><span class="flow__num">05</span><span class="flow__line"></span></div><div class="flow__text"><strong>Pedido o cita cerrada</strong><span>Pago, agenda y aviso al equipo</span></div></li>
-        </ol>
       </div>
     </div>
   </section>
@@ -83,7 +93,7 @@
     </div>
   </section>
 
-  <!-- SOLUCIONES -->
+  <!-- QUÉ HACEMOS -->
   <section class="section" id="soluciones">
     <div class="container">
       <div class="section-head reveal">
@@ -100,8 +110,32 @@
     </div>
   </section>
 
+  <!-- SECTORES -->
+  <section class="section section--alt" id="sectores">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Sectores</span>
+        <h2 class="h2">Flujos pensados para cómo trabaja tu sector</h2>
+      </div>
+      <div class="sectors">
+        <article class="sector reveal">
+          <div class="ph"><img src="assets/img/sector-alimentacion.jpg" alt="Manos sosteniendo arándanos frescos en un mercado de frutas y verduras" width="800" height="500" loading="lazy" onerror="this.remove()"></div>
+          <div class="sector__body"><h3>Empresas alimentarias</h3><p>Pedidos B2B, distribuidores y atención al cliente conectados de punta a punta.</p></div>
+        </article>
+        <article class="sector reveal">
+          <div class="ph"><img src="assets/img/sector-vino.jpg" alt="Viticultor y consultor revisando datos de ventas en una tablet en el viñedo" width="800" height="500" loading="lazy" onerror="this.remove()"></div>
+          <div class="sector__body"><h3>Vinicultores</h3><p>Venta a distribuidores, enoturismo y seguimiento comercial automatizado.</p></div>
+        </article>
+        <article class="sector reveal">
+          <div class="ph"><img src="assets/img/sector-audiovisual.jpg" alt="Instalación audiovisual profesional" width="800" height="500" loading="lazy" onerror="this.remove()"></div>
+          <div class="sector__body"><h3>Integradores audiovisuales</h3><p>Filtrado de leads y agenda de visitas técnicas sin perseguir a nadie.</p></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
   <!-- CASOS -->
-  <section class="section section--alt" id="casos">
+  <section class="section" id="casos">
     <div class="container">
       <div class="cases__head reveal">
         <div class="section-head" style="margin-bottom:0">
@@ -111,7 +145,8 @@
         <p>No hacemos webs aisladas: conectamos marcas, equipos y empresas para que la información fluya sin intervención manual.</p>
       </div>
 
-      <article class="case case--wide reveal">
+      <article class="case case--photo reveal">
+        <div class="ph"><img src="assets/img/caso-isocore.jpg" alt="Producto fresco de un cliente del Grupo ISOCORE" width="760" height="840" loading="lazy" onerror="this.remove()"></div>
         <div class="case__copy">
           <span class="case__tag">Ecosistema multimarca</span>
           <h3>Grupo ISOCORE</h3>
@@ -123,34 +158,33 @@
             <div class="stat"><strong>[X h]</strong><span>[ahorro semanal]</span></div>
           </div>
         </div>
-        <div class="eco" role="img" aria-label="Las tres marcas ISOCORE conectadas al núcleo Vicotek">
-          <div class="eco__brand">ISOCORE<small>Nutrición</small></div>
-          <div class="eco__brand">ISOCORE<small>Pharma</small></div>
-          <div class="eco__brand">ISOCORE<small>Food</small></div>
-          <div class="eco__links" aria-hidden="true"><i></i><i></i><i></i></div>
-          <div class="eco__core"><strong>Núcleo Vicotek</strong><span>CRM · Agentes IA · Automatizaciones · Analítica</span></div>
-        </div>
       </article>
 
       <div class="cases__grid">
-        <article class="case reveal">
-          <span class="case__tag">Proptech · Dinamarca</span>
-          <h3>Bolighub</h3>
-          <p>Portal de alquiler que conecta inquilinos y propietarios. Flujos que cualifican interesados, avisan en tiempo real y mantienen la conversación viva sin carga para el equipo.</p>
-          <div class="chips"><span class="chip">Cualificación de leads</span><span class="chip">Alertas automáticas</span><span class="chip">Soporte multicanal</span></div>
+        <article class="case case--card reveal">
+          <div class="ph"><img src="assets/img/caso-bolighub.jpg" alt="Portal de alquiler Bolighub" width="900" height="520" loading="lazy" onerror="this.remove()"></div>
+          <div class="case__body">
+            <span class="case__tag">Proptech · Dinamarca</span>
+            <h3>Bolighub</h3>
+            <p>Portal de alquiler que conecta inquilinos y propietarios. Flujos que cualifican interesados, avisan en tiempo real y mantienen la conversación viva sin carga para el equipo.</p>
+            <div class="chips"><span class="chip">Cualificación de leads</span><span class="chip">Alertas automáticas</span><span class="chip">Soporte multicanal</span></div>
+          </div>
         </article>
-        <article class="case reveal">
-          <span class="case__tag">Vinicultura</span>
-          <h3>Envinat</h3>
-          <p>Soluciones de IA para bodegas: atención a distribuidores y clientes, catálogo inteligente y seguimiento comercial automatizado.</p>
-          <div class="chips"><span class="chip">Vendedor IA por chat</span><span class="chip">Agenda de visitas</span></div>
+        <article class="case case--card reveal">
+          <div class="ph"><img src="assets/img/caso-envinat.jpg" alt="Bodega usando el panel comercial de Envinat en el viñedo" width="900" height="520" loading="lazy" onerror="this.remove()"></div>
+          <div class="case__body">
+            <span class="case__tag">Vinicultura</span>
+            <h3>Envinat</h3>
+            <p>Soluciones de IA para bodegas: atención a distribuidores y clientes, catálogo inteligente y seguimiento comercial automatizado.</p>
+            <div class="chips"><span class="chip">Vendedor IA por chat</span><span class="chip">Agenda de visitas</span></div>
+          </div>
         </article>
       </div>
     </div>
   </section>
 
   <!-- INTEGRACIONES -->
-  <section class="section">
+  <section class="section section--alt">
     <div class="container split">
       <div class="split__copy reveal">
         <span class="eyebrow">Integraciones</span>
@@ -172,7 +206,7 @@
   </section>
 
   <!-- PROCESO -->
-  <section class="section section--alt" id="proceso">
+  <section class="section" id="proceso">
     <div class="container">
       <div class="section-head reveal">
         <span class="eyebrow">Proceso</span>
@@ -187,11 +221,9 @@
   </section>
 
   <!-- EQUIPO -->
-  <section class="section" id="equipo">
+  <section class="section section--alt" id="equipo">
     <div class="container team">
-      <!-- Para poner la foto: guarda assets/jose-antonio.jpg y cambia este div por
-           <img class="team__photo" src="assets/jose-antonio.jpg" alt="Jose Antonio Zuheros Vico"> -->
-      <div class="team__photo" aria-hidden="true">JA</div>
+      <div class="ph team__img"><img src="assets/img/jose-antonio.jpg" alt="Jose Antonio Zuheros Vico" width="600" height="720" loading="lazy" onerror="this.remove()"></div>
       <div class="team__copy reveal">
         <span class="eyebrow">Quién está detrás</span>
         <h2>Jose Antonio Zuheros Vico</h2>
@@ -205,8 +237,9 @@
     </div>
   </section>
 
+
   <!-- CTA -->
-  <section class="cta">
+  <section class="cta" style="padding-top:112px">
     <div class="container">
       <div class="cta__box reveal">
         <div>
@@ -229,7 +262,7 @@
     <div class="footer__links">
       <a href="#soluciones">Soluciones</a>
       <a href="#casos">Casos</a>
-      <a href="privacidad.html">Privacidad</a>
+      <a href="privacidad.html">Política de privacidad</a>
       <a href="aviso-legal.html">Aviso legal</a>
     </div>
   </div>
