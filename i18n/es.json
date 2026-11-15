@@ -6,7 +6,6 @@
   "meta_desc": "Diseñamos e integramos webs con flujos profundos: CRM, WhatsApp, llamadas, pagos y agentes de IA conectados entre sí y entre empresas.",
   "og_title": "Vicotek — Webs que trabajan por tu empresa",
   "og_desc": "Webs integradas con flujos profundos y agentes de IA que conectan empresas.",
-
   "nav_aria": "Principal",
   "menu_open": "Abrir menú",
   "menu_close": "Cerrar menú",
@@ -16,7 +15,6 @@
   "nav_cases": "Casos",
   "nav_team": "Equipo",
   "cta_demo": "Reservar demo",
-
   "hero_pill": "Webs + flujos + agentes IA",
   "hero_h1_a": "Webs que no solo se ven bien.",
   "hero_h1_b": "Trabajan por tu empresa.",
@@ -24,16 +22,13 @@
   "hero_cta1": "Diseñar mi flujo",
   "hero_cta2": "Ver casos reales",
   "alt_hero": "Equipo de un cliente revisando su flujo comercial alrededor de una mesa",
-
   "flow_aria": "Ejemplo de flujo: lead desde la web, la IA cualifica y asigna, pedido cerrado por WhatsApp",
   "flow_title": "Flujo activo",
   "flow_live": "En vivo",
   "f1": "Lead desde la web",
   "f2": "IA cualifica y asigna",
   "f3": "Pedido cerrado por WhatsApp",
-
   "strip_label": "Ecosistemas conectados",
-
   "sol_eyebrow": "Qué hacemos",
   "sol_h2": "La web es solo la puerta. Lo que hay detrás es lo que hace crecer tu empresa.",
   "sol_lead": "Cada proyecto une diseño, automatización e inteligencia artificial en un único sistema que se mantiene solo.",
@@ -46,7 +41,6 @@
   "p3d": "Call center, vendedor por chat, setter de WhatsApp y soporte. Atienden, filtran y cierran 24/7.",
   "p4t": "Integraciones",
   "p4d": "CRM, WhatsApp, email, teléfono, Meta Leads, Excel y pasarelas de pago conectados en un único sistema.",
-
   "sec_eyebrow": "Sectores",
   "sec_h2": "Flujos pensados para cómo trabaja tu sector",
   "sec1t": "Empresas alimentarias",
@@ -58,7 +52,6 @@
   "alt_food": "Manos sosteniendo arándanos frescos en un mercado de frutas y verduras",
   "alt_wine": "Viticultor y consultor revisando datos de ventas en una tablet en el viñedo",
   "alt_av": "Instalación audiovisual profesional",
-
   "cases_eyebrow": "Casos reales",
   "cases_h2": "Empresas que ya operan con flujos conectados",
   "cases_side": "No hacemos webs aisladas: conectamos marcas, equipos y empresas para que la información fluya sin intervención manual.",
@@ -83,7 +76,6 @@
   "env_c1": "Vendedor IA por chat",
   "env_c2": "Agenda de visitas",
   "alt_envinat": "Bodega usando el panel comercial de Envinat en el viñedo",
-
   "int_eyebrow": "Integraciones",
   "int_h2": "Una web. Decenas de conexiones.",
   "int_lead": "Conectamos las herramientas que ya usas y las que necesitarás. Si tiene API, webhook o una hoja de cálculo, entra en el flujo.",
@@ -99,7 +91,6 @@
   "t7": "Checkout y links",
   "t8": "Datos existentes",
   "t9": "Lo que necesites",
-
   "proc_eyebrow": "Proceso",
   "proc_h2": "De la idea a clientes reales en 7 días",
   "s1t": "Mapa de flujos",
@@ -108,21 +99,18 @@
   "s2d": "Construimos la web y conectamos WhatsApp, teléfono, email y CRM con tus guiones y procesos.",
   "s3t": "Prueba y optimización",
   "s3d": "En 7 días tus agentes ya atienden a clientes reales, y seguimos afinando con datos.",
-
   "team_eyebrow": "Quién está detrás",
   "team_role": "Director de Operaciones · Desarrollador de software especializado en IA",
   "team_desc": "Lidera personalmente cada implementación: desde el diseño de la web hasta el último flujo conectado, para que la tecnología encaje con cómo trabaja de verdad tu empresa.",
-
   "scene_eyebrow": "Detrás de escena",
   "scene_h2": "Así trabajamos con nuestros clientes",
   "alt_scene": "Vicotek trabajando con un cliente",
-
   "cta_h2": "¿Qué flujo de tu empresa debería funcionar solo?",
   "cta_p": "Cuéntanoslo en 30 minutos. Te enseñamos cómo quedaría conectado.",
   "cta_whatsapp": "Escribir por WhatsApp",
-
   "privacy": "Política de privacidad",
   "legal": "Aviso legal",
   "back_home": "Volver al inicio",
-  "legal_placeholder": "[Texto legal pendiente. Incluye titular, NIF/CVR, domicilio, email de contacto y finalidad del tratamiento de datos.]"
+  "legal_placeholder": "[Texto legal pendiente. Incluye titular, NIF/CVR, domicilio, email de contacto y finalidad del tratamiento de datos.]",
+  "new_tab": "se abre en una pestaña nueva"
 }

@@ -64,6 +64,23 @@ def hreflang_tags():
     return "\n".join(tags)
 
 
+def ecosystems_block(new_tab_label):
+    """Banda 'Ecosistemas conectados': enlace si la empresa tiene url, texto si no."""
+    data = json.loads((ROOT / "ecosistemas.json").read_text(encoding="utf-8"))
+    items = []
+    for e in data["empresas"]:
+        name = html.escape(e["nombre"])
+        url = (e.get("url") or "").strip()
+        if url:
+            items.append(
+                f'        <a href="{html.escape(url, quote=True)}" target="_blank" rel="noopener" '
+                f'aria-label="{name} ({html.escape(new_tab_label)})">{name}</a>'
+            )
+        else:
+            items.append(f"        <span>{name}</span>")
+    return "\n".join(items)
+
+
 def escena_block(base, vals):
     """Sección 'Detrás de escena': solo aparece cuando existe assets/img/escena-1.jpg."""
     if not (ROOT / "assets/img/escena-1.jpg").exists():
@@ -106,6 +123,7 @@ def main():
             lang_switcher=switcher(code, base, data["lang_aria"]),
         )
         vals["escena"] = escena_block(base, vals)
+        vals["ecosystems"] = ecosystems_block(data["new_tab"])
         (out_dir / "index.html").write_text(render(index_tpl, vals, f"{code}/index"), encoding="utf-8")
 
         for fname, title_key in (("privacidad.html", "privacy"), ("aviso-legal.html", "legal")):

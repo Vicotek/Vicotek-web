@@ -7,6 +7,7 @@ Sitio estático publicado con GitHub Pages en 4 idiomas: castellano (`/`), ingl�
 
 | Quiero cambiar…            | Edito…                                  |
 |----------------------------|-----------------------------------------|
+| Enlaces de “Ecosistemas”   | `ecosistemas.json` (deja `url` vacío para quitar el enlace) |
 | Un texto                   | `i18n/es.json`, `en.json`, `da.json`, `ca.json` |
 | La estructura / secciones  | `src/index.html`                        |
 | Colores, tamaños           | `assets/styles.css` (variables `:root`) |

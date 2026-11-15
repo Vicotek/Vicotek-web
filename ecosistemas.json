@@ -1,0 +1,10 @@
+{
+  "_nota": "Empresas de la banda 'Ecosistemas conectados'. Deja \"url\" vacío para mostrar el nombre sin enlace. Después ejecuta: python3 build.py",
+  "empresas": [
+    { "nombre": "ISOCORE Nutrición", "url": "https://isocorenutricion.es" },
+    { "nombre": "ISOCORE Pharma",    "url": "https://isocorepharma.es" },
+    { "nombre": "ISOCORE Food",      "url": "" },
+    { "nombre": "Bolighub",          "url": "https://bolighub.pro" },
+    { "nombre": "Envinat",           "url": "https://envinat.com" }
+  ]
+}

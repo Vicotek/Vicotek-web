@@ -6,7 +6,6 @@
   "meta_desc": "Vi designer og integrerer hjemmesider med dybe flows: CRM, WhatsApp, opkald, betalinger og AI-agenter forbundet med hinanden og på tværs af virksomheder.",
   "og_title": "Vicotek — Hjemmesider, der arbejder for din virksomhed",
   "og_desc": "Hjemmesider integreret med dybe flows og AI-agenter, der forbinder virksomheder.",
-
   "nav_aria": "Hovedmenu",
   "menu_open": "Åbn menu",
   "menu_close": "Luk menu",
@@ -16,7 +15,6 @@
   "nav_cases": "Cases",
   "nav_team": "Team",
   "cta_demo": "Book en demo",
-
   "hero_pill": "Hjemmesider + flows + AI-agenter",
   "hero_h1_a": "Hjemmesider, der ikke bare ser godt ud.",
   "hero_h1_b": "De arbejder for din virksomhed.",
@@ -24,16 +22,13 @@
   "hero_cta1": "Design mit flow",
   "hero_cta2": "Se rigtige cases",
   "alt_hero": "En kundes team gennemgår deres salgsflow omkring et bord",
-
   "flow_aria": "Eksempel på flow: lead fra hjemmesiden, AI kvalificerer og fordeler, ordre lukket via WhatsApp",
   "flow_title": "Aktivt flow",
   "flow_live": "Live",
   "f1": "Lead fra hjemmesiden",
   "f2": "AI kvalificerer og fordeler",
   "f3": "Ordre lukket via WhatsApp",
-
   "strip_label": "Forbundne økosystemer",
-
   "sol_eyebrow": "Det gør vi",
   "sol_h2": "Hjemmesiden er kun døren. Det, der ligger bagved, får din virksomhed til at vokse.",
   "sol_lead": "Hvert projekt samler design, automatisering og kunstig intelligens i ét system, der kører af sig selv.",
@@ -46,7 +41,6 @@
   "p3d": "Callcenter, chat-sælger, WhatsApp-setter og support. De svarer, kvalificerer og lukker døgnet rundt.",
   "p4t": "Integrationer",
   "p4d": "CRM, WhatsApp, e-mail, telefon, Meta Leads, Excel og betalingsløsninger forbundet i ét system.",
-
   "sec_eyebrow": "Brancher",
   "sec_h2": "Flows bygget til, hvordan din branche arbejder",
   "sec1t": "Fødevarevirksomheder",
@@ -58,7 +52,6 @@
   "alt_food": "Hænder, der holder friske blåbær på et frugt- og grøntmarked",
   "alt_wine": "Vinbonde og konsulent gennemgår salgsdata på en tablet i vinmarken",
   "alt_av": "Professionel AV-installation",
-
   "cases_eyebrow": "Cases",
   "cases_h2": "Virksomheder, der allerede kører på forbundne flows",
   "cases_side": "Vi bygger ikke isolerede hjemmesider: vi forbinder brands, teams og virksomheder, så information flyder uden manuelt arbejde.",
@@ -83,7 +76,6 @@
   "env_c1": "AI-sælger i chat",
   "env_c2": "Booking af besøg",
   "alt_envinat": "Et vinhus bruger Envinats salgsdashboard i vinmarken",
-
   "int_eyebrow": "Integrationer",
   "int_h2": "Én hjemmeside. Snesevis af forbindelser.",
   "int_lead": "Vi forbinder de værktøjer, du allerede bruger, og dem, du får brug for. Har det et API, en webhook eller et regneark, kommer det med i flowet.",
@@ -99,7 +91,6 @@
   "t7": "Checkout og links",
   "t8": "Eksisterende data",
   "t9": "Hvad du end har brug for",
-
   "proc_eyebrow": "Proces",
   "proc_h2": "Fra idé til rigtige kunder på 7 dage",
   "s1t": "Kortlægning af flows",
@@ -108,21 +99,18 @@
   "s2d": "Vi bygger hjemmesiden og forbinder WhatsApp, telefon, e-mail og CRM med dine manuskripter og processer.",
   "s3t": "Test og optimering",
   "s3d": "Inden for 7 dage betjener dine agenter rigtige kunder, og vi finjusterer løbende med data.",
-
   "team_eyebrow": "Hvem står bag",
   "team_role": "Driftsdirektør · Softwareudvikler med speciale i AI",
   "team_desc": "Leder personligt hver implementering — fra designet af hjemmesiden til det sidste forbundne flow — så teknologien passer til, hvordan din virksomhed reelt arbejder.",
-
   "scene_eyebrow": "Bag kulisserne",
   "scene_h2": "Sådan arbejder vi med vores kunder",
   "alt_scene": "Vicotek i samarbejde med en kunde",
-
   "cta_h2": "Hvilket flow i din virksomhed burde køre af sig selv?",
   "cta_p": "Fortæl os det på 30 minutter. Vi viser dig, hvordan det ville se ud forbundet.",
   "cta_whatsapp": "Skriv på WhatsApp",
-
   "privacy": "Privatlivspolitik",
   "legal": "Juridisk information",
   "back_home": "Tilbage til forsiden",
-  "legal_placeholder": "[Juridisk tekst mangler. Angiv ejer, CVR-nummer, adresse, kontakt-e-mail og formålet med behandlingen af personoplysninger.]"
+  "legal_placeholder": "[Juridisk tekst mangler. Angiv ejer, CVR-nummer, adresse, kontakt-e-mail og formålet med behandlingen af personoplysninger.]",
+  "new_tab": "åbner i en ny fane"
 }

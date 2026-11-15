@@ -6,7 +6,6 @@
   "meta_desc": "We design and integrate websites with deep workflows: CRM, WhatsApp, calls, payments and AI agents connected to each other and across companies.",
   "og_title": "Vicotek — Websites that work for your business",
   "og_desc": "Websites integrated with deep workflows and AI agents that connect companies.",
-
   "nav_aria": "Main",
   "menu_open": "Open menu",
   "menu_close": "Close menu",
@@ -16,7 +15,6 @@
   "nav_cases": "Case studies",
   "nav_team": "Team",
   "cta_demo": "Book a demo",
-
   "hero_pill": "Websites + workflows + AI agents",
   "hero_h1_a": "Websites that don't just look good.",
   "hero_h1_b": "They work for your business.",
@@ -24,16 +22,13 @@
   "hero_cta1": "Design my workflow",
   "hero_cta2": "See real cases",
   "alt_hero": "A client's team reviewing their sales workflow around a table",
-
   "flow_aria": "Example workflow: lead from the website, AI qualifies and assigns, order closed via WhatsApp",
   "flow_title": "Live workflow",
   "flow_live": "Live",
   "f1": "Lead from the website",
   "f2": "AI qualifies and assigns",
   "f3": "Order closed via WhatsApp",
-
   "strip_label": "Connected ecosystems",
-
   "sol_eyebrow": "What we do",
   "sol_h2": "Your website is just the front door. What's behind it is what grows your business.",
   "sol_lead": "Every project combines design, automation and artificial intelligence into a single system that runs on its own.",
@@ -46,7 +41,6 @@
   "p3d": "Call centre, chat sales rep, WhatsApp setter and support. They answer, qualify and close 24/7.",
   "p4t": "Integrations",
   "p4d": "CRM, WhatsApp, email, phone, Meta Leads, Excel and payment gateways connected in one system.",
-
   "sec_eyebrow": "Industries",
   "sec_h2": "Workflows designed around how your industry works",
   "sec1t": "Food companies",
@@ -58,7 +52,6 @@
   "alt_food": "Hands holding fresh blueberries at a fruit and vegetable market",
   "alt_wine": "Winemaker and consultant reviewing sales data on a tablet in the vineyard",
   "alt_av": "Professional audiovisual installation",
-
   "cases_eyebrow": "Case studies",
   "cases_h2": "Companies already running on connected workflows",
   "cases_side": "We don't build isolated websites: we connect brands, teams and companies so information flows without manual work.",
@@ -83,7 +76,6 @@
   "env_c1": "AI chat sales rep",
   "env_c2": "Visit scheduling",
   "alt_envinat": "A winery using the Envinat sales dashboard in the vineyard",
-
   "int_eyebrow": "Integrations",
   "int_h2": "One website. Dozens of connections.",
   "int_lead": "We connect the tools you already use and the ones you'll need. If it has an API, a webhook or a spreadsheet, it joins the workflow.",
@@ -99,7 +91,6 @@
   "t7": "Checkout and links",
   "t8": "Existing data",
   "t9": "Whatever you need",
-
   "proc_eyebrow": "Process",
   "proc_h2": "From idea to real customers in 7 days",
   "s1t": "Workflow map",
@@ -108,21 +99,18 @@
   "s2d": "We build the website and connect WhatsApp, phone, email and CRM with your scripts and processes.",
   "s3t": "Testing and optimisation",
   "s3d": "Within 7 days your agents are serving real customers, and we keep fine-tuning with data.",
-
   "team_eyebrow": "Who's behind it",
   "team_role": "Head of Operations · Software developer specialised in AI",
   "team_desc": "Personally leads every implementation — from the website design to the last connected workflow — so the technology fits how your business really works.",
-
   "scene_eyebrow": "Behind the scenes",
   "scene_h2": "How we work with our clients",
   "alt_scene": "Vicotek working with a client",
-
   "cta_h2": "Which workflow in your business should run on its own?",
   "cta_p": "Tell us in 30 minutes. We'll show you how it would look connected.",
   "cta_whatsapp": "Message us on WhatsApp",
-
   "privacy": "Privacy policy",
   "legal": "Legal notice",
   "back_home": "Back to home",
-  "legal_placeholder": "[Legal text pending. Include owner, company ID (CVR/NIF), address, contact email and purpose of data processing.]"
+  "legal_placeholder": "[Legal text pending. Include owner, company ID (CVR/NIF), address, contact email and purpose of data processing.]",
+  "new_tab": "opens in a new tab"
 }

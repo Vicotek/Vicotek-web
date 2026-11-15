@@ -279,3 +279,7 @@ p { margin: 0; }
   .scenes { grid-template-columns: 1fr 1fr; grid-auto-rows: 160px; }
   .scenes .ph:nth-child(1) { grid-row: auto; grid-column: span 2; }
 }
+
+/* Enlaces de la banda de ecosistemas */
+.strip__logos a { color: var(--text-2); border-bottom: 1px solid transparent; transition: color .15s ease, border-color .15s ease; }
+.strip__logos a:hover { color: var(--accent); border-bottom-color: var(--accent); }

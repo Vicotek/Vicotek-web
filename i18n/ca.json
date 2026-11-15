@@ -6,7 +6,6 @@
   "meta_desc": "Dissenyem i integrem webs amb fluxos profunds: CRM, WhatsApp, trucades, pagaments i agents d'IA connectats entre si i entre empreses.",
   "og_title": "Vicotek — Webs que treballen per la teva empresa",
   "og_desc": "Webs integrades amb fluxos profunds i agents d'IA que connecten empreses.",
-
   "nav_aria": "Principal",
   "menu_open": "Obrir el menú",
   "menu_close": "Tancar el menú",
@@ -16,7 +15,6 @@
   "nav_cases": "Casos",
   "nav_team": "Equip",
   "cta_demo": "Reservar demo",
-
   "hero_pill": "Webs + fluxos + agents IA",
   "hero_h1_a": "Webs que no només es veuen bé.",
   "hero_h1_b": "Treballen per la teva empresa.",
@@ -24,16 +22,13 @@
   "hero_cta1": "Dissenyar el meu flux",
   "hero_cta2": "Veure casos reals",
   "alt_hero": "Equip d'un client revisant el seu flux comercial al voltant d'una taula",
-
   "flow_aria": "Exemple de flux: lead des de la web, la IA qualifica i assigna, comanda tancada per WhatsApp",
   "flow_title": "Flux actiu",
   "flow_live": "En directe",
   "f1": "Lead des de la web",
   "f2": "La IA qualifica i assigna",
   "f3": "Comanda tancada per WhatsApp",
-
   "strip_label": "Ecosistemes connectats",
-
   "sol_eyebrow": "Què fem",
   "sol_h2": "La web només és la porta. El que hi ha darrere és el que fa créixer la teva empresa.",
   "sol_lead": "Cada projecte uneix disseny, automatització i intel·ligència artificial en un únic sistema que funciona sol.",
@@ -46,7 +41,6 @@
   "p3d": "Call center, venedor per xat, setter de WhatsApp i suport. Atenen, filtren i tanquen 24/7.",
   "p4t": "Integracions",
   "p4d": "CRM, WhatsApp, correu, telèfon, Meta Leads, Excel i passarel·les de pagament connectats en un únic sistema.",
-
   "sec_eyebrow": "Sectors",
   "sec_h2": "Fluxos pensats per a com treballa el teu sector",
   "sec1t": "Empreses alimentàries",
@@ -58,7 +52,6 @@
   "alt_food": "Mans sostenint nabius frescos en un mercat de fruita i verdura",
   "alt_wine": "Viticultor i consultor revisant dades de vendes en una tauleta a la vinya",
   "alt_av": "Instal·lació audiovisual professional",
-
   "cases_eyebrow": "Casos reals",
   "cases_h2": "Empreses que ja operen amb fluxos connectats",
   "cases_side": "No fem webs aïllades: connectem marques, equips i empreses perquè la informació flueixi sense intervenció manual.",
@@ -83,7 +76,6 @@
   "env_c1": "Venedor IA per xat",
   "env_c2": "Agenda de visites",
   "alt_envinat": "Un celler fent servir el tauler comercial d'Envinat a la vinya",
-
   "int_eyebrow": "Integracions",
   "int_h2": "Una web. Desenes de connexions.",
   "int_lead": "Connectem les eines que ja fas servir i les que necessitaràs. Si té API, webhook o un full de càlcul, entra al flux.",
@@ -99,7 +91,6 @@
   "t7": "Checkout i enllaços",
   "t8": "Dades existents",
   "t9": "El que necessitis",
-
   "proc_eyebrow": "Procés",
   "proc_h2": "De la idea a clients reals en 7 dies",
   "s1t": "Mapa de fluxos",
@@ -108,21 +99,18 @@
   "s2d": "Construïm la web i connectem WhatsApp, telèfon, correu i CRM amb els teus guions i processos.",
   "s3t": "Prova i optimització",
   "s3d": "En 7 dies els teus agents ja atenen clients reals, i continuem afinant amb dades.",
-
   "team_eyebrow": "Qui hi ha al darrere",
   "team_role": "Director d'Operacions · Desenvolupador de programari especialitzat en IA",
   "team_desc": "Lidera personalment cada implementació: des del disseny de la web fins a l'últim flux connectat, perquè la tecnologia encaixi amb com treballa de debò la teva empresa.",
-
   "scene_eyebrow": "Entre bastidors",
   "scene_h2": "Així treballem amb els nostres clients",
   "alt_scene": "Vicotek treballant amb un client",
-
   "cta_h2": "Quin flux de la teva empresa hauria de funcionar sol?",
   "cta_p": "Explica-ho en 30 minuts. Et mostrem com quedaria connectat.",
   "cta_whatsapp": "Escriure per WhatsApp",
-
   "privacy": "Política de privacitat",
   "legal": "Avís legal",
   "back_home": "Tornar a l'inici",
-  "legal_placeholder": "[Text legal pendent. Inclou titular, NIF, domicili, correu de contacte i finalitat del tractament de dades.]"
+  "legal_placeholder": "[Text legal pendent. Inclou titular, NIF, domicili, correu de contacte i finalitat del tractament de dades.]",
+  "new_tab": "s'obre en una pestanya nova"
 }
