@@ -29,9 +29,9 @@ git add -A && git commit -m "Actualiza textos" && git push
 | `hero.jpg`                  | Portada                    | 1100 × 880         | provisional |
 | `sector-alimentacion.jpg`   | Sector alimentación        | 800 × 500          | provisional |
 | `sector-vino.jpg`           | Sector vinicultores        | 800 × 500          | provisional |
-| `sector-audiovisual.jpg`    | Sector audiovisual         | 800 × 500          | **falta** |
+| `sector-audiovisual.jpg`    | Sector audiovisual         | 800 × 500          | ✓ |
 | `caso-isocore.jpg`          | Caso ISOCORE (vertical)    | 760 × 840          | provisional |
-| `caso-bolighub.jpg`         | Caso Bolighub              | 900 × 520          | **falta** |
+| `caso-bolighub.jpg`         | Caso Bolighub              | 1200 × 558         | ✓ |
 | `caso-envinat.jpg`          | Caso Envinat               | 900 × 520          | provisional |
 | `jose-antonio.jpg`          | Equipo                     | 600 × 720          | ✓ |
 | `escena-1.jpg` … `escena-4.jpg` | Sección "Detrás de escena" | 1 horizontal grande + 3 | **falta** |
